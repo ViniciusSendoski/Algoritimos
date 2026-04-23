@@ -31,7 +31,7 @@ public class Main {
         saidaQuebraLinha();
         saida();
         saidaQuebraLinha();
-        saidaExemploEscape();
+        saidaExemploEscape(numero, numeroVirgula, letra, palavra);
         saidaQuebraLinha();
         saidaInt(numero);
         saidaQuebraLinha();
@@ -55,9 +55,12 @@ public class Main {
         System.out.println("====================");
     }
 
-    public static void saidaExemploEscape(){
+    public static void saidaExemploEscape(int numero, double numeroVirgula, char letra, String palavra){
         // Exemplo tabela de especificadores de formato(C e Java)
-        System.out.println("");
+        System.out.printf("%%d Para numeros inteiro por exemplo: %d\n", numero);
+        System.out.printf("%%f Para numeros Reais por exemplo: %f\n", numeroVirgula);
+        System.out.printf("%%c Para numeros Reais por exemplo: %c\n", letra);
+        System.out.printf("%%s Para numeros Reais por exemplo: %s\n", palavra);
     }
 
     public static void saidaInt(int numero) {
