@@ -1,10 +1,10 @@
 // Criar um algoritimo que mostre valor ao quadrado
 // user@user:~$ javac Exercicio_1.java && java Exercicio_1
 
-public class Exercicio_1 {
+public class Modelo {
     // Funções de entrada
     public static int entradaInt() {
-        int numero;
+        int numero = 1;
 
         return numero;
     }
@@ -15,8 +15,8 @@ public class Exercicio_1 {
     }
 
     // Funções de execução
-    public static int generic(){
-        int resultado;
+    public static int generic(int numero){
+        int resultado = numero + numero;
 
         // Calculo
 

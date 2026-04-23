@@ -43,6 +43,7 @@ public class Ex04 {
     public static int calculaNota100(int valor){
         return valor / 100;
     }
+    
     public static int calculaNota50(int valor){
         return valor / 50;
     }
