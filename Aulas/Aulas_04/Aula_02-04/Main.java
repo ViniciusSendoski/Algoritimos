@@ -59,8 +59,8 @@ public class Main {
         // Exemplo tabela de especificadores de formato(C e Java)
         System.out.printf("%%d Para numeros inteiro por exemplo: %d\n", numero);
         System.out.printf("%%f Para numeros Reais por exemplo: %f\n", numeroVirgula);
-        System.out.printf("%%c Para numeros Reais por exemplo: %c\n", letra);
-        System.out.printf("%%s Para numeros Reais por exemplo: %s\n", palavra);
+        System.out.printf("%%c Para uma letra por exemplo: %c\n", letra);
+        System.out.printf("%%s Para palavras por exemplo: %s\n", palavra);
     }
 
     public static void saidaInt(int numero) {
