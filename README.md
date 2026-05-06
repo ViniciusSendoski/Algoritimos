@@ -64,15 +64,14 @@ java Main 16 29 +
 
 ### Entradas e Saidas
 * **Entradas:** a estrutura .next() define qual sera o tratamento do dado.
-* **Saidas:**
 
 | Tipo de dado | Estrutura |
 | :-- | :-- |
-| int | .nextInt() |
-| double | .nextDouble() |
-| boolean | .nextBoolean() |
-| char | .next().charAt(0) |
-| String | .nextLine() |
+| int | `.nextInt()` |
+| double | `.nextDouble()` |
+| boolean | `.nextBoolean()` |
+| char | `.next().charAt(0)` |
+| String | `.nextLine()` |
 
 ```java
     public static Scanner teclado = new Scanner(System.in);
@@ -84,4 +83,12 @@ java Main 16 29 +
         return teclado.nextInt();
     }
 ```
+* **Saidas:** Espesificações de formato para saida.
 
+| Tipo | Estrutura | Tipo | Espesificação |
+| :-- | :-- | :-- | :-- | 
+| int | %d | boolean ||
+| double | %f | char ||
+| double | %2.f | String |  |
+|  |  |  |  |
+|  |  | ||
