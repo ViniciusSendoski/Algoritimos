@@ -1,7 +1,7 @@
 # 📚 Algoritmos e Lógica de Programação com Java
 
 ![Status](https://img.shields.io/badge/Status-On_going-orange)
-![Versão](https://img.shields.io/badge/Versão-1.02-blue)
+![Versão](https://img.shields.io/badge/Versão-1.03-blue)
 
 
 Este repositório contém anotações fundamentais e exemplos práticos sobre lógica de programação, funcionamento da linguagem Java e comandos essenciais de terminal Linux.
