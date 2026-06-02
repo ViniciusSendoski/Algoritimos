@@ -10,7 +10,7 @@ public class Main {
         System.out.print(mensagem);
         return scanner.nextInt();
     }
-    
+
     public static void main(String[] args) {
         int numero;
         int valor_inicial, valor_final;
